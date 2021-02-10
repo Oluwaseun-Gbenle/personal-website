@@ -1,0 +1,112 @@
+*{
+    margin:0;
+}
+body{
+    font-family: 'Roboto';
+}
+
+img{
+    width:200px;
+}
+.btn{
+    position: absolute;
+    right:20px;
+    top:20px;
+    background-color:red;
+    cursor:pointer;
+}
+.btn1{
+    position: absolute;
+    right:20px;
+    top:20px;
+    background-color:green;
+    cursor:pointer;
+}
+h3,h1{
+    color:green;
+}
+.firstBox{
+display:flex;
+justify-content: space-around;
+background-image:url("https://wallpaperaccess.com/full/459723.jpg");
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+background-color: purple;
+opacity:0.8;
+height:100%;
+width:100%;
+}
+.slideshow-container{
+    height:250px;
+    width:250px;
+    margin:50px;
+    margin-top:80px;
+    border-radius:50%;
+    background-color:red;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+.introduction{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.line{
+    width:30px;
+    height:3px;
+    background-color: green;
+}
+.text{
+    font-family: 'Roboto';
+    font-size:35px;
+}
+.secondBox{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:20px;
+}
+.leftSide{
+width:45%
+}
+.rightSide{
+    width:45%;
+}
+h3{
+    margin-top:15px;
+}
